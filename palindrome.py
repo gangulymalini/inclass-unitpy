@@ -4,12 +4,12 @@ def palindrometester(word):
         #print(len(word) - (i+1))
         #print(word[len(word) - (i+1)])
         palin += word[len(word) - (i+1)]
-    print(palin)
+    #print(palin)
 
     if (palin == word):
-        return 0
+        return True
     else:
-        return 1
+        return False
 
-print(palindrometester("you're ugly"))
-print(palindrometester("madam"))
+#print(palindrometester("you're ugly"))
+#print(palindrometester("madam"))
