@@ -7,6 +7,3 @@ def wordtester(word):
     return(count + 1)
 
 
-
-#print(wordtester("you're ugly"))
-#print(wordtester("madam"))
